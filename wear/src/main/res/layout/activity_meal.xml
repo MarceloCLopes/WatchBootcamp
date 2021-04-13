@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <LinearLayout
@@ -18,8 +19,9 @@
             android:id="@+id/mealTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Meal title"
+            android:text="@string/title"
             android:textSize="18sp"
+            android:textColor="@color/white"
             android:textStyle="bold"/>
 
         <TextView
@@ -27,13 +29,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="8dp"
-            android:text="Number of calories" />
+            android:textColor="@color/white"
+            android:text="@string/calories" />
 
         <TextView
             android:id="@+id/ingredients"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingTop="8dp"
-            android:text="Ingredients" />
+            android:textColor="@color/white"
+            android:text="@string/ingredients" />
+
+        <ImageView
+            android:id="@+id/star"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/ic_star_border_black_24dp"
+            app:tint="@android:color/white" />
     </LinearLayout>
 </androidx.wear.widget.BoxInsetLayout>
