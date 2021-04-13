@@ -20,6 +20,9 @@
         <!--
                Set to true if your app is Standalone, that is, it does not require the handheld
                app to run.
+
+               Definido como verdadeiro se seu aplicativo for autônomo, ou seja, não requer o dispositivo portátil
+               aplicativo para ser executado.
         -->
         <meta-data
             android:name="com.google.android.wearable.standalone"
