@@ -1,4 +1,4 @@
-package com.mcl.watchbootcamp
+package com.mcl.shared
 
 data class Meal(
     val title: String,
